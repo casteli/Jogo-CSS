@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+body {
+  flex-direction: column;
+  background-image: url(./assets/image/Background-jogo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
 header {
   display: flex;
   background-color: rgba(70, 69, 69, 0.7);
