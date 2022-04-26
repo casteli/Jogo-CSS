@@ -59,3 +59,19 @@ nav ul li a {
   align-items: center;
   justify-content: center;
 }
+
+.button1,
+.button2,
+.button3 {
+  transition: transform 1s;
+  background-color: rgb(51, 51, 58);
+  margin: 80px 100px;
+}
+
+.button1:hover,
+.button2:hover,
+.button3:hover {
+  animation: pulso 1s ease-in-out;
+  color: azure;
+  transform: scale(1.35);
+}
