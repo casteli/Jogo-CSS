@@ -37,3 +37,25 @@ header {
   font-size: 2.2rem;
   margin-top: 300px;
 }
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 20px;
+  width: 100px;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: red;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
