@@ -81,3 +81,11 @@ nav ul li a {
     box-shadow: 0 0 50px rgb(76, 187, 221), 0 0 100px rgb(38, 39, 82);
   }
 }
+
+footer {
+  text-align: center;
+  background-color: rgba(70, 69, 69);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
