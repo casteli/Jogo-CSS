@@ -1,5 +1,5 @@
 // função do botão da pagina um (backgorund)
-function buttonPlay() {
+function buttonPlayB1() {
   let escolha = "";
   while (escolha != 1 && escolha != 2) {
     escolha = prompt(
@@ -16,7 +16,7 @@ function buttonPlay() {
 }
 
 // função do botão da pagina dois (backgorund)
-function buttonPlay2() {
+function buttonPlayB2() {
   let escolha = "";
   while (escolha != 1 && escolha != 2) {
     escolha = prompt(
@@ -33,7 +33,7 @@ function buttonPlay2() {
 }
 
 // função do botão da pagina três (backgorund)
-function buttonPlay3() {
+function buttonPlayB3() {
   let escolha = "";
   while (escolha != 1 && escolha != 2) {
     escolha = prompt(
@@ -50,11 +50,12 @@ function buttonPlay3() {
 }
 
 // função do botão da pagina quatro (backgorund)
-function buttonPlay4() {
+
+function buttonPlayB4() {
   window.location.href = "/game/index.html";
 }
 
-//pagina dois a baixo
+// FASE DAS FONTAS A BAIXO
 
 // função do botão da pagina um (FONT)
 function buttonPlayF1() {
@@ -109,5 +110,59 @@ function buttonPlayF3() {
 
 // função do botão da pagina quatro (font)
 function buttonPlayF4() {
+  window.location.href = "/game/index.html";
+}
+
+// --- FASE DA MARGIN A BAIXO
+
+function buttonPlayM1() {
+  let escolha = "";
+  while (escolha != 1 && escolha != 2) {
+    escolha = prompt(
+      "Oque posso fazer com o elemento margin-top? \n 1: posso definir a margem do container de cima para baixo  \n 2: posso definir a margem do container de baixo para cima",
+    );
+    if (escolha === "1") {
+      window.location.href = "./pagina2.html";
+    } else if (escolha === "2") {
+      window.location.href = "gameover";
+    } else {
+      alert("essa opção não existe");
+    }
+  }
+}
+
+function buttonPlayM2() {
+  let escolha = "";
+  while (escolha != 1 && escolha != 2) {
+    escolha = prompt(
+      "Oque posso fazer com o elemento margin-left? \n 1: posso definir a margem do container da esquerda para direita  \n 2: posso definir a margem do container da direita pra esquerda",
+    );
+    if (escolha === "1") {
+      window.location.href = "./pagina3.html";
+    } else if (escolha === "2") {
+      window.location.href = "gameover";
+    } else {
+      alert("essa opção não existe");
+    }
+  }
+}
+
+function buttonPlayM3() {
+  let escolha = "";
+  while (escolha != 1 && escolha != 2) {
+    escolha = prompt(
+      "Oque posso fazer com o elemento margin-right? \n 1: posso definir a margem do container da deira para esquerda  \n 2: posso definir a margem do container da esquerda para direita",
+    );
+    if (escolha === "1") {
+      window.location.href = "./pagina4.html";
+    } else if (escolha === "2") {
+      window.location.href = "gameover";
+    } else {
+      alert("essa opção não existe");
+    }
+  }
+}
+
+function buttonPlayM4() {
   window.location.href = "/game/index.html";
 }
