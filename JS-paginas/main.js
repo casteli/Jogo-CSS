@@ -1,4 +1,4 @@
-// função do botão da pagina um
+// função do botão da pagina um (backgorund)
 function buttonPlay() {
   let escolha = "";
   while (escolha != 1 && escolha != 2) {
@@ -15,7 +15,7 @@ function buttonPlay() {
   }
 }
 
-// função do botão da pagina dois
+// função do botão da pagina dois (backgorund)
 function buttonPlay2() {
   let escolha = "";
   while (escolha != 1 && escolha != 2) {
@@ -32,7 +32,7 @@ function buttonPlay2() {
   }
 }
 
-// função do botão da pagina dois
+// função do botão da pagina três (backgorund)
 function buttonPlay3() {
   let escolha = "";
   while (escolha != 1 && escolha != 2) {
@@ -49,7 +49,65 @@ function buttonPlay3() {
   }
 }
 
-// função do botão da pagina quatro
+// função do botão da pagina quatro (backgorund)
 function buttonPlay4() {
+  window.location.href = "/game/index.html";
+}
+
+//pagina dois a baixo
+
+// função do botão da pagina um (FONT)
+function buttonPlayF1() {
+  let escolha = "";
+  while (escolha != 1 && escolha != 2) {
+    escolha = prompt(
+      "Oque faz o font-size:? \n 1: Serve para definir o tamanho da fonte  \n 2: muda a cor da fonte",
+    );
+    if (escolha === "1") {
+      window.location.href = "./pagina2.html";
+    } else if (escolha === "2") {
+      window.location.href = "gameover";
+    } else {
+      alert("essa opção não existe");
+    }
+  }
+}
+
+// função do botão da pagina dois (font)
+function buttonPlayF2() {
+  let escolha = "";
+  while (escolha != 1 && escolha != 2) {
+    escolha = prompt(
+      "Oque faz o font-family:? \n 1: muda o estilo da fonte de acordo com a familia atribuida  \n 2: muda a largura da fonte",
+    );
+    if (escolha === "1") {
+      window.location.href = "./pagina3.html";
+    } else if (escolha === "2") {
+      window.location.href = "gameover";
+    } else {
+      alert("essa opção não existe");
+    }
+  }
+}
+
+// função do botão da pagina três (font)
+function buttonPlayF3() {
+  let escolha = "";
+  while (escolha != 1 && escolha != 2) {
+    escolha = prompt(
+      "oque faz o font-weight:bold? \n 1: deixa a fonte em negrito \n 2: a fonte fica sublinhada",
+    );
+    if (escolha === "1") {
+      window.location.href = "./pagina4.html";
+    } else if (escolha === "2") {
+      window.location.href = "gameover";
+    } else {
+      alert("essa opção não existe");
+    }
+  }
+}
+
+// função do botão da pagina quatro (font)
+function buttonPlayF4() {
   window.location.href = "/game/index.html";
 }
