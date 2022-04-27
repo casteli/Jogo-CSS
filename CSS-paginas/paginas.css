@@ -28,8 +28,8 @@ header {
   padding: 20px 50px;
 }
 
-.titulo1-fase1,
-.titulo2-fase1 {
+.titulo1-fase,
+.titulo2-fase {
   display: flex;
   justify-content: center;
   align-items: center;

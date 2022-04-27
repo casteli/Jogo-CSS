@@ -33,7 +33,7 @@ function buttonPlay2() {
 }
 
 // função do botão da pagina dois
-function buttonPlay2() {
+function buttonPlay3() {
   let escolha = "";
   while (escolha != 1 && escolha != 2) {
     escolha = prompt(
@@ -47,4 +47,9 @@ function buttonPlay2() {
       alert("essa opção não existe");
     }
   }
+}
+
+// função do botão da pagina quatro
+function buttonPlay4() {
+  window.location.href = "/game/index.html";
 }
