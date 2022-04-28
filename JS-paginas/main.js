@@ -116,6 +116,7 @@ function buttonPlayF4() {
 
 // --- FASE DA MARGIN A BAIXO
 
+// função do botão da pagina um (margin)
 function buttonPlayM1() {
   let escolha = "";
   while (escolha != 1 && escolha != 2) {
@@ -132,6 +133,7 @@ function buttonPlayM1() {
   }
 }
 
+// função do botão da pagina dois (margin)
 function buttonPlayM2() {
   let escolha = "";
   while (escolha != 1 && escolha != 2) {
@@ -148,6 +150,7 @@ function buttonPlayM2() {
   }
 }
 
+// função do botão da pagina três (margin)
 function buttonPlayM3() {
   let escolha = "";
   while (escolha != 1 && escolha != 2) {
@@ -164,6 +167,7 @@ function buttonPlayM3() {
   }
 }
 
+// função do botão da pagina quatro (margin)
 function buttonPlayM4() {
   window.location.href = "/game/index.html";
 }

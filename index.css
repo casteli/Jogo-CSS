@@ -67,7 +67,7 @@ nav ul li a {
   background-color: rgb(51, 51, 58);
   margin: 80px 100px;
 }
-
+/* efeito de pulso aplicado ao botao da home*/
 .button1:hover,
 .button2:hover,
 .button3:hover {
