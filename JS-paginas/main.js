@@ -171,3 +171,8 @@ function buttonPlayM3() {
 function buttonPlayM4() {
   window.location.href = "/game/index.html";
 }
+
+// função do botão da pagina gameover
+function buttonInicio() {
+  window.location.href = "/game/index.html";
+}
