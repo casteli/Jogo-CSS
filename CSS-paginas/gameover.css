@@ -41,8 +41,7 @@ header {
   }
 }
 
-.titulo1-fase,
-.titulo2-fase {
+.titulo1-fase {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,8 +50,25 @@ header {
   font-size: 1.5rem;
 }
 
-.titulo2-fase {
-  margin-top: 250px;
+.image-meme img {
+  width: 250px;
+  height: 250px;
+  animation: rotation 8s infinite linear;
+}
+.image-meme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .button-play {
