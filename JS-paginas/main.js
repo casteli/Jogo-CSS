@@ -50,12 +50,6 @@ function buttonPlayB3() {
   }
 }
 
-// função do botão da pagina quatro (backgorund)
-
-function buttonPlayB4() {
-  window.location.href = "/index.html";
-}
-
 // FASE DAS FONTS A BAIXO
 
 // função do botão da pagina um (FONT)
@@ -107,11 +101,6 @@ function buttonPlayF3() {
       alert("essa opção não existe");
     }
   }
-}
-
-// função do botão da pagina quatro (font)
-function buttonPlayF4() {
-  window.location.href = "/index.html";
 }
 
 // --- FASE DA MARGIN A BAIXO
@@ -167,12 +156,7 @@ function buttonPlayM3() {
   }
 }
 
-// função do botão da pagina quatro (margin)
-function buttonPlayM4() {
-  window.location.href = "/index.html";
-}
-
-// função do botão da pagina gameover
+// função do botao inicio
 function buttonInicio() {
-  window.location.href = "/index.html";
+  window.location.href = "../index.html";
 }
