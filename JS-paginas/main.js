@@ -1,3 +1,4 @@
+//FASE BACKGROUND
 // função do botão da pagina um (backgorund)
 function buttonPlayB1() {
   let escolha = "";
@@ -55,7 +56,7 @@ function buttonPlayB4() {
   window.location.href = "/game/index.html";
 }
 
-// FASE DAS FONTAS A BAIXO
+// FASE DAS FONTS A BAIXO
 
 // função do botão da pagina um (FONT)
 function buttonPlayF1() {
@@ -119,7 +120,7 @@ function buttonPlayM1() {
   let escolha = "";
   while (escolha != 1 && escolha != 2) {
     escolha = prompt(
-      "Oque posso fazer com o elemento margin-top? \n 1: posso definir a margem do container de cima para baixo  \n 2: posso definir a margem do container de baixo para cima",
+      "Para o que serve a propriedade margin-top? \n 1: Definir a margem superior de um elemento \n 2:  Definir a margem inferior de um elemento",
     );
     if (escolha === "1") {
       window.location.href = "./pagina2.html";
@@ -135,7 +136,7 @@ function buttonPlayM2() {
   let escolha = "";
   while (escolha != 1 && escolha != 2) {
     escolha = prompt(
-      "Oque posso fazer com o elemento margin-left? \n 1: posso definir a margem do container da esquerda para direita  \n 2: posso definir a margem do container da direita pra esquerda",
+      "Para o que serve a propriedade margin-left? \n 1: Definir a margem esquerda de um elemento \n Definir a margem direita de um elemento",
     );
     if (escolha === "1") {
       window.location.href = "./pagina3.html";
@@ -151,7 +152,7 @@ function buttonPlayM3() {
   let escolha = "";
   while (escolha != 1 && escolha != 2) {
     escolha = prompt(
-      "Oque posso fazer com o elemento margin-right? \n 1: posso definir a margem do container da deira para esquerda  \n 2: posso definir a margem do container da esquerda para direita",
+      "Para o que serve a propriedade margin-right? \n 1: Definir a margem direita de um elemento  \n 2: Definir a margem de baixo de um elemento ",
     );
     if (escolha === "1") {
       window.location.href = "./pagina4.html";
