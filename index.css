@@ -15,7 +15,7 @@ header {
   display: flex;
   background-color: rgba(70, 69, 69, 0.7);
   height: 80px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   font-size: 1.5rem;
 }
@@ -38,12 +38,34 @@ header {
   margin-top: 300px;
 }
 
+/* botao COMO JOGAR DA HEADER */
+.button-como-jogar {
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(51, 51, 58);
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(255, 255, 255, 0.3);
+}
+
+.button-como-jogar:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.button-como-jogar:active {
+  background-color: rgb(51, 51, 58);
+  box-shadow: 0 5px rgb(112, 112, 112);
+  transform: translateY(4px);
+}
+/* fim do botao header (como jogar) */
+
 nav ul {
   display: flex;
   list-style: none;
 }
 
-nav ul li {
+/* botoes das fases */
+.button-container nav ul li {
   padding: 20px;
   width: 120px;
   text-align: center;
